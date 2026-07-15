@@ -1,0 +1,11 @@
+[package]
+name = "rlap"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+aligned-vec = "0.5"
+cache-size = "0.5"
+parking_lot = "0.12.5"
+tokio = { version = "1", features = ["full"] } # 異步網路核心
